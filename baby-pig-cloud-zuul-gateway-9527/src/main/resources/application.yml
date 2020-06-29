@@ -16,15 +16,15 @@ eureka:
  
 zuul: 
   #ignored-services: baby-pig-cloud-dept
-  prefix: /atguigu
+  prefix: /babypig
   ignored-services: "*"
   routes: 
     mydept.serviceId: baby-pig-cloud-dept
     mydept.path: /mydept/**
  
 info:
-  app.name: atguigu-microcloud
-  company.name: www.atguigu.com
+  app.name: babypig-microcloud
+  company.name: www.babypig.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 

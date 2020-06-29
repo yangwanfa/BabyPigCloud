@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.atguigu.springcloud</groupId>
+		<groupId>com.babypig.springcloud</groupId>
 		<artifactId>baby-pig-cloud</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>${project.version}</version>
 	</parent>
 
 	<artifactId>baby-pig-cloud-consumer-hystrix-dashboard</artifactId>
@@ -13,7 +13,7 @@
 	<dependencies>
 		<!-- 自己定义的api -->
 		<dependency>
-			<groupId>com.atguigu.springcloud</groupId>
+			<groupId>com.babypig.springcloud</groupId>
 			<artifactId>baby-pig-cloud-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
